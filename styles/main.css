@@ -11,6 +11,7 @@ body {
 .logo-icon {
     color: white;
     font-size: 70px;
+    padding-bottom: 10px;
 }
 
 .container {
@@ -22,12 +23,15 @@ body {
 
 .flex-container {
     flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
 
 .header {
     background-color: #343434;
     box-shadow: 5px 0 20px black;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 
